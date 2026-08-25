@@ -20,7 +20,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
-                <maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.target>11</maven.compiler.target>
+		<sonar.projectKey>maven-standalone-application</sonar.projectKey>
 	</properties>
 
 	<dependencies>
@@ -71,7 +72,7 @@
             <plugin>
                <groupId>org.sonarsource.scanner.maven</groupId>
                <artifactId>sonar-maven-plugin</artifactId>
-               <version>5.0.0.4389</version>
+	       <version>5.0.0.4389</version>
             </plugin>
 	  </plugins>
 	</build>
